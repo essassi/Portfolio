@@ -397,7 +397,10 @@ section.home {
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
-  gap: 130px;
+  gap: 20px;
+}
+.container:hover {
+  margin-top: 100px;
 }
 .about img {
   width: 250px;
@@ -428,6 +431,11 @@ section.home {
   flex-direction: column;
   /* color: var(--text-color); */
   position: relative;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
 }
 .container:hover .image-section {
   top: 5%;
